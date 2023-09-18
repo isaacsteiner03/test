@@ -1,0 +1,126 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+nav #projres {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+#projresul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#projresli {
+    margin-right: 10px;
+}
+
+#projresli a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#hw {
+    text-align: center;
+    font-family: monospace;
+}
+#name {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+#headshot {
+    width: 400px;
+    height: auto;
+    border: 3px solid black;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: helvetica;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    border: 3px solid black;
+    color: #000000;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  #languageimg {
+    width: 50px;
+    height: auto;
+    border: 3px solid black;
+}
+
+#contact {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#contactinfo {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex; 
+    justify-content: center;
+}
+#about {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+#abouttxt {
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    display: flex; 
+    justify-content: center;
+}
